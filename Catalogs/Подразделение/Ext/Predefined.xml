@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.11">
+	<Item id="8622c70c-67a0-44c6-be1a-3ed37a08b292">
+		<Name>Админ</Name>
+		<Code>000000003</Code>
+		<Description>Админ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="52957aae-082f-4dc4-b6ca-a86eb0265ac1">
+		<Name>Менеджеры</Name>
+		<Code>000000001</Code>
+		<Description>Менеджеры</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="06d4210f-70c9-4b89-8cbc-0d1d8c37ed31">
+		<Name>Обработка</Name>
+		<Code>000000002</Code>
+		<Description>Обработка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
