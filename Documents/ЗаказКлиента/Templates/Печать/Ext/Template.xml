@@ -10,7 +10,7 @@
 		</languageInfo>
 	</languageSettings>
 	<columns>
-		<size>2</size>
+		<size>5</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -89,15 +89,13 @@
 	</rowsItem>
 	<rowsItem>
 		<index>2</index>
-		<indexTo>3</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>4</index>
+		<index>3</index>
 		<row>
-			<columnsID>36e68a41-5ab6-4651-bbc8-9d41b7a47c6f</columnsID>
 			<c>
 				<i>1</i>
 				<c>
@@ -111,9 +109,44 @@
 				</c>
 			</c>
 			<c>
+				<i>3</i>
 				<c>
 					<f>8</f>
 					<parameter>Номер</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>4</index>
+		<row>
+			<columnsID>36e68a41-5ab6-4651-bbc8-9d41b7a47c6f</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Цена</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>10</f>
+					<parameter>Цена</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>11</f>
 				</c>
 			</c>
 		</row>
@@ -125,19 +158,24 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>7</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сумма документа</v8:content>
+							<v8:content>Количество</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>9</f>
-					<parameter>СуммаДокумента</parameter>
+					<f>8</f>
+					<parameter>Количество</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
 				</c>
 			</c>
 		</row>
@@ -149,7 +187,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>7</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -164,6 +202,11 @@
 					<parameter>Клиент</parameter>
 				</c>
 			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -173,7 +216,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>7</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -184,7 +227,7 @@
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>10</f>
 					<parameter>Телефон</parameter>
 				</c>
 			</c>
@@ -197,7 +240,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>7</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -212,15 +255,58 @@
 					<parameter>Статус</parameter>
 				</c>
 			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>9</index>
+		<row>
+			<columnsID>36e68a41-5ab6-4651-bbc8-9d41b7a47c6f</columnsID>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма документа</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>12</f>
+					<parameter>СуммаДокумента</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>10</defaultFormatIndex>
-	<height>9</height>
-	<vgRows>9</vgRows>
+	<defaultFormatIndex>13</defaultFormatIndex>
+	<height>10</height>
+	<vgRows>10</vgRows>
 	<merge>
-		<r>4</r>
-		<c>2</c>
+		<r>3</r>
+		<c>1</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>3</r>
+		<c>3</c>
 		<w>1</w>
 	</merge>
 	<merge>
@@ -249,7 +335,7 @@
 		<area>
 			<type>Rows</type>
 			<beginRow>3</beginRow>
-			<endRow>8</endRow>
+			<endRow>9</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -274,6 +360,18 @@
 		<textPlacement>Wrap</textPlacement>
 	</format>
 	<format>
+		<width>144</width>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<width>144</width>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+		<markNegatives>false</markNegatives>
+	</format>
+	<format>
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
 	</format>
@@ -284,6 +382,12 @@
 		<markNegatives>false</markNegatives>
 	</format>
 	<format>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<markNegatives>false</markNegatives>
+	</format>
+	<format>
+		<width>144</width>
 		<horizontalAlignment>Right</horizontalAlignment>
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Block</textPlacement>

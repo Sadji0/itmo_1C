@@ -71,11 +71,21 @@
 					<ContextMenu name="КлиентКонтекстноеМеню" id="14"/>
 					<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="15"/>
 				</InputField>
-				<InputField name="СуммаДокумента" id="10">
-					<DataPath>Объект.СуммаДокумента</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="СуммаДокументаКонтекстноеМеню" id="11"/>
-					<ExtendedTooltip name="СуммаДокументаРасширеннаяПодсказка" id="12"/>
+				<InputField name="Цена" id="26">
+					<DataPath>Объект.Цена</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Цена, руб</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ЦенаКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ЦенаРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="Количество" id="29">
+					<DataPath>Объект.Количество</DataPath>
+					<ContextMenu name="КоличествоКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="КоличествоРасширеннаяПодсказка" id="31"/>
 				</InputField>
 			</ChildItems>
 		</UsualGroup>

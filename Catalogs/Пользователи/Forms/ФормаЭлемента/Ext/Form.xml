@@ -55,6 +55,16 @@
 							<ContextMenu name="ВидЗаказаКонтекстноеМеню" id="33"/>
 							<ExtendedTooltip name="ВидЗаказаРасширеннаяПодсказка" id="34"/>
 						</InputField>
+						<Button name="Кнопка1" id="38">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ДобавитьКартинку</CommandName>
+							<ExtendedTooltip name="Кнопка1РасширеннаяПодсказка" id="39"/>
+						</Button>
+						<PictureField name="Фото" id="35">
+							<DataPath>Фото</DataPath>
+							<ContextMenu name="ФотоКонтекстноеМеню" id="36"/>
+							<ExtendedTooltip name="ФотоРасширеннаяПодсказка" id="37"/>
+						</PictureField>
 					</ChildItems>
 				</Page>
 				<Page name="ПраваДоступа" id="11">
@@ -186,5 +196,37 @@
 			</Title>
 			<Type/>
 		</Attribute>
+		<Attribute name="Фото" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Фото</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="ДобавитьКартинку" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить картинку</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить картинку</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДобавитьКартинку</Action>
+		</Command>
+	</Commands>
 </Form>
